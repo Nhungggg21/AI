@@ -1,0 +1,15 @@
+Cài đặt Streamlit: pip install streamlit
+
+Cài đặt các thư viện cần thiết:
+pip install transformers
+pip install torch
+pip install nltk
+pip install sentencepiece
+
+Cập nhật thư viện 'transformers':
+pip install --upgrade transformers
+
+Đảm bảo sau mỗi lần cập nhật sẽ phải cài đặt lại:
+pip install transformers torch streamlit nltk
+
+Chạy ứng dụng: streamlit run app.py
